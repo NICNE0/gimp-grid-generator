@@ -14,6 +14,10 @@ This plugin generates a customizable grid with an optional background layer. It 
 - Suitable for design templates, grids, or layout guides.
 
 ## Installation
+> Download the necessary files:
+> [Download the Plugin Script](https://github.com/downloads/NICNE0/gimp-grid-generator/main/grid_gen.py), and
+> [Download the Instructions](https://raw.github.com/downloads/NICNE0/gimp-grid-generator/main/readme.txt)
+
 1. Save the plugin script `grid_and_background_plugin.py` in your GIMP plug-ins directory.
    - On macOS: `~/Library/Application Support/GIMP/2.10/plug-ins`
    - On Linux: `~/.config/GIMP/2.10/plug-ins`
