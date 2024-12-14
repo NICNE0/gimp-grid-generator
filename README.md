@@ -28,13 +28,15 @@ This plugin generates a customizable grid with an optional background layer. It 
 ## Usage
 1. Open GIMP and navigate to `Toolbox > Filters > Custom > Grid Generator`.
 2. Configure the plugin parameters:
+   
+<a href="default_prompt"><img src="https://github.com/user-attachments/assets/81f029a5-47ff-48f5-9ff1-9da540ed9ebb"  width="480" ></a>
    - **Grid Thickness:** Specify the thickness of the grid lines in pixels.
    - **Columns and Rows:** Define the number of columns and rows.
    - **Grid Color:** Choose the color of the grid lines.
    - **Grid Cell Dimensions:** Set the width and height of each grid cell in pixels.
    - **Background Color:** Select the background layer color (if included).
    - **Include Background:** Enable or disable the background layer.
-3. Click "OK" to generate the grid.
+4. Click "OK" to generate the grid.
 
 ## Example Configurations
 - **Basic Grid:**
