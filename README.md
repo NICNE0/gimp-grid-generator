@@ -1,7 +1,5 @@
 # Grid and Background Plugin for GIMP
 
-**Author:** NICNE0  
-**License:** MIT  
 **Version:** 1.0.0  
 **Website:** [Check our website](https://www.brundisium.org/recursos/plugins)
 
