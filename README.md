@@ -16,20 +16,25 @@ This plugin generates a customizable grid with an optional background layer. It 
 ## Installation
 > [Download latest release now](https://github.com/NICNE0/gimp-grid-generator/archive/refs/tags/v1.0.0.zip)
 
-1. Save the plugin script `grid_and_background_plugin.py` in your GIMP plug-ins directory.
-   - On macOS: `~/Library/Application Support/GIMP/2.10/plug-ins`
-   - On Linux: `~/.config/GIMP/2.10/plug-ins`
-   - On Windows: `%AppData%\GIMP\2.10\plug-ins`
-2. Make the script executable:
-   ```bash
-   chmod +x grid_and_background_plugin.py
-   ```
-3. Restart GIMP.
-4. The plugin will appear under: `Toolbox > Filters > Custom > Grid Generator`.
+1. Find your Plug-in folder by checking  `Preferences > Folders > Plug-ins`:
+      - On macOS: `~/Library/Application Support/GIMP/2.10/plug-ins`
+      - On Linux: `~/.config/GIMP/2.10/plug-ins`
+      - On Windows: `%AppData%\GIMP\2.10\plug-ins`
+        
+   <img width="623" alt="image" src="https://github.com/user-attachments/assets/ce3d553d-bd07-4d9a-84db-6e99dabe8409" />
 
-## Usage
-1. Open GIMP and navigate to `Toolbox > Filters > Custom > Grid Generator`.
-2. Configure the plugin parameters:
+
+2. Save the plugin script `grid_gen.py` into your GIMP plug-ins directory
+   
+3. Make the script executable by running:
+   ```bash
+   cd <Your Plug-in directory>
+   chmod +x grid_gen.py
+   ```
+   
+4. Restart GIMP.
+   
+5. The plugin will appear under: `Toolbox > Filters > Custom > Grid Generator`.
    
 <a href="default_prompt"><img src="https://github.com/user-attachments/assets/81f029a5-47ff-48f5-9ff1-9da540ed9ebb"  width="480" ></a>
    - **Grid Thickness:** Specify the thickness of the grid lines in pixels.
